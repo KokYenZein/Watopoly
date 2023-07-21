@@ -26,7 +26,7 @@ Watopoly uses the Observer Pattern to handle events and interactions between gam
 
 In the context of Watopoly, different components like the board, players, and cards act as both observers and publishers. For example, when a player lands on a square, the square notifies the player about the action, and the player's status may update accordingly.
 
-UML Diagram
+# UML Diagram
 ![Watopoly UML Diagram](https://github.com/KokYenZein/Watopoly/blob/main/watopolyDD2UML.drawio.png?raw=true)
 
 The UML diagram above illustrates the class hierarchy and relationships in the Watopoly project. It showcases the objects and their interactions in the Observer Pattern implementation.
